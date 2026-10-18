@@ -1,16 +1,16 @@
 program MedStock;
-uses crt;
+
 
 var
   // Variabel Utama Menu & Kontrol
-  pilihan: integer;
-  lanjutMenu: boolean;
+  pilihan: integer;             // pilihan perintah
+  lanjutMenu: boolean;          // untuk memilih perintah selanjutnya
   
   // Data Obat 1
-  nama1: string;
-  stok1: integer;
-  harga1: real;
-  batas1: integer;
+  nama1: string;                // nama obat
+  stok1: integer;               // jumlah stok
+  harga1: real;                 // harga jual obat
+  batas1: integer;              // batas jumlah stok aman
 
   // Data Obat 2
   nama2: string;
@@ -25,14 +25,13 @@ var
   batas3: integer;
 
   // Variabel Bantu Transaksi / Resep
-  cariNama: string;
-  pilihObat, jumlahTransaksi: integer;
-  totalResep: real;
-  lagiResep: char;
-  counter: integer; // untuk contoh perulangan for
+  pilihObat, jumlahTransaksi: integer;                   // pilih obat yang mau di hitung; Berapa jumlahnya
+  totalResep: real;                                      // Hasil total hiungan satu resep
+  lagiResep: char;                                       // untuk menambah obat lain ke dalam resep
+  counter: integer;                                      // untuk contoh perulangan for
 
 begin
-clrscr;
+
   // Inisialisasi Data Obat 1, 2, dan 3
   nama1 := 'Paracetamol 500mg';
   stok1 := 50;
