@@ -16,11 +16,13 @@ Kalkulasi Harga Tebus Resep — Menghitung total harga obat berdasarkan resep ya
 Menu Interaktif — Memudahkan pengguna mengakses setiap fitur melalui pilihan menu.
 
 **Tujuan Program**
-MedStock dikembangkan untuk mempermudah pengelolaan persediaan obat secara sederhana, membantu meminimalkan kesalahan pencatatan stok, dan mempermudah perhitungan biaya obat.
+MedStock dikembangkan untuk mempermudah pengelolaan persediaan obat secara sederhana, 
+membantu meminimalkan kesalahan pencatatan stok, dan 
+mempermudah perhitungan biaya obat.
 
 **Teknologi yang Digunakan**
-Bahasa Pemrograman: Sesuaikan dengan bahasa yang digunakan dalam program.
-Platform: Aplikasi berbasis terminal atau console (jika program dijalankan melalui terminal).
+Bahasa Pemrograman: Bahasa Pemrograman Pascal.
+Platform: Visual Studio Code (VS code).
 
 **Cara Penggunaan**
 Jalankan program MedStock.
@@ -37,4 +39,4 @@ MedStock merupakan program inventaris sederhana untuk keperluan pembelajaran dan
 **Pengembangan**
 MedStock dapat dikembangkan lebih lanjut dengan menambahkan fitur penyimpanan data permanen, pencarian obat, laporan transaksi, serta pengelolaan tanggal kedaluwarsa obat.
 
-MedStock — Kelola Stok, Pantau Persediaan, Hitung Biaya dengan Mudah. 💊
+**MedStock — Kelola Stok, Pantau Persediaan, Hitung Biaya dengan Mudah. 💊**
